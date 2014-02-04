@@ -1,0 +1,29 @@
+%html
+  %title
+  %head
+    = stylesheet_link_tag 'kube', 'application'
+    = stylesheet_link_tag 'post','pop_box','application'
+    = javascript_include_tag 'jquery', 'jquery-ujs', 'jquery.hoverpanels', 'popBox','application'
+  %body  
+    .units-row 
+      .unit-centered.unit-40
+        = image_tag('Newlogo.png')
+        %ul.menu-pills
+          %li
+            %div
+              %a{:href=>"/"} home
+          %li
+            %div
+              %a{:href=>"/"} meat Jo 
+          %li
+            %div
+              %a{:href=>"/"} inspiration
+          %li
+            %div
+              %a{:href=>"/"} recipe box
+          %li
+            %div
+              %a{:href=>"/"} outdoors
+          %li{ :style=>"text-align=center padding-right=8px font-size=2em" }   
+            = yield
+        

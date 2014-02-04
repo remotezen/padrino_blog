@@ -1,0 +1,23 @@
+ul.posts{ 
+  list-style:none;
+  padding:8px;
+  margin:20px;
+}
+li.post{ 
+  background:#EEE;
+}
+div.main-window{ 
+  padding:8px;
+  margin:20px;
+}
+li.post.title{ 
+  p:first-letter{ 
+    font-size:1.3em;
+    color:red;
+  }
+
+}
+
+
+
+

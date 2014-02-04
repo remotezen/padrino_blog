@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "reaniebeanie";
+    src: url("../fonts/ReenieBeanie.ttf");
+    format("truetype");
+}
+
+ul.posts{ 
+  list-style:none;
+  padding:20px;
+  margin:10px;
+  text-align:center;
+}
+hr.application-top{ 
+  background-color:#ffff00;
+  color:#FFFF00;
+  font-size: 0;
+  height: 2px;
+}
+li.post-heading{ 
+  font: 2.5em "reaniebeanie";
+  color:#777;
+  text-align:left;
+  
+
+}
+
+.posts li.post{ 
+  font-size:0.5em;
+  color:222;
+}
+div.main-window{ 
+  font-family: "reaniebeanie";
+  font-size:14;
+  padding:8px;
+  margin:20px;
+}
+table.personal-info{ 
+}
+.font-box{ 
+  height:300;
+  margin-bottom:40px;
+}
+.menu-pills li { 
+  font-family: "reaniebeanie";
+  font-size:15;
+  font-color:#000;
+  float:left;
+  list-style-type:none;
+  text-align:center;
+
+}
+.menu-pills li div{ 
+  background-color:#77ca00;
+  margin:3px;
+  padding-left:4px;
+  padding-right:6px;
+  padding-top:6px;
+  padding-bottom:4px;
+  border:1px solid #000;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  margin-bottom:25px;
+  min-width:60px;
+  text-align:center;
+}
+
+.menu-pills li a{ 
+  text-decoration:none;
+  border-radius: 20px;
+  color:#454545;
+}
+
+
+
+
+

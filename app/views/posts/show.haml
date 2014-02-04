@@ -1,0 +1,13 @@
+- @title= @post.title
+
+#show
+  .post
+    %br
+    %ul.posts
+      %li.post.first-letter
+        %u
+          = simple_format(@post.title)
+          =image_tag(@post.image, size:'10x10')
+        = simple_format(@post.body)
+      %li.post.italic
+        .date=time_ago_in_words(@post.created_at || Time.now) + ' ago'

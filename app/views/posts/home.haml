@@ -1,0 +1,10 @@
+%ul.posts
+  %p
+  %li.post-heading
+    %u
+      =@post.title
+  %p   
+  %li.post
+    =image_tag(@post.image, :width  =>'400', :height=>'300')
+    %p
+    =@post.body
